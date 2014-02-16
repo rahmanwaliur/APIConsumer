@@ -1,0 +1,35 @@
+#import requests
+import json
+import genhive
+import submitjob
+
+# response = requests.get('https://github.com/timeline.json')
+with open("data.json") as filename:
+   print filename.read()
+   data = json.loads(filename.read())
+   print data
+#parsed_response = json.loads(response)
+
+#import csv
+
+#ifile = open('data.csv', "rb")
+#reader = csv.reader(ifile)
+
+
+#rownum = 0
+#for row in reader:
+#save header row
+#  if rownum == 0:
+#    header = row
+#  else:
+#    colnum = 0
+#    for col in row:
+#      if header[colnum] == "medcodes":
+#        #print '%s' % (col)
+#        job = genhive.hivequery(col)
+#	#print job
+#	submitjob.newjob(job)
+#      colnum = colnum + 1
+#  rownum = rownum + 1
+#ifile.close()
+

@@ -1,0 +1,7 @@
+def hivequery(medcodes):
+
+# code for hive query generation
+
+  return "describe diabdrug.patient"
+
+

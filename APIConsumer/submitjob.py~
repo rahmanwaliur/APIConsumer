@@ -1,0 +1,31 @@
+import pyhs2
+
+def newjob(ajob):
+
+  conn = pyhs2.connect(host='136.159.79.112', port = 10000, authMechanism = "PLAIN", user='wrahman',
+  database='default')
+
+  cur = conn.cursor()
+  cur.execute(ajob)
+
+  #for i in cur.fetch():
+  #    print i
+
+  
+  cur.close()
+  conn.close()
+
+class HiveJob(threading.Thread):
+
+  def run(self):
+     conn = pyhs2.connect(host='136.159.79.112', port = 10000, authMechanism = "PLAIN", user='wrahman',
+     database='default')
+     
+     cur = conn.cursor()
+     cur.execute(ajob)
+     
+     #for i in cur.fetch():
+     #    print i
+     cur.close()
+     conn.close()
+
