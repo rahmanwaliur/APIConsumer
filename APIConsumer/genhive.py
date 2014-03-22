@@ -3,8 +3,8 @@ def hivequery(medcodes):
 
 # code for hive query generation
 
-  print medcodes
+  #print medcodes
 
-  return "describe diabdrug.patient"
+  return "select country, gni from hdi where gni<2000"
 
 
