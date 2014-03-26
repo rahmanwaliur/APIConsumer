@@ -1,13 +1,13 @@
 [
   {
-    "jobid": 50,
-    "userid": 1,
+    "jobid": 5,
+    "userid": 3,
     "cohortname": "abc",
     "medcodes": ["1234", "3546", "6452", "4657", "5637", "46572"]
   },
   {
-    "jobid": 51,
-    "userid": 2,
+    "jobid": 7,
+    "userid": 4,
     "cohortname": "xyz",
     "medcodes": ["1234", "3546", "6452", "4657", "5637", "46572"]
   }

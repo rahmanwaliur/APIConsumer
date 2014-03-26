@@ -5,7 +5,7 @@ import genhive
 import submitjob
 import subprocess
 import thread
-
+import time
 # response = requests.get('https://github.com/timeline.json')
 
 with open("data.json") as filename:
@@ -13,6 +13,7 @@ with open("data.json") as filename:
   length = len(parsed_data)
   #print parsed_data
 
+firsttime = 0
 rownum = 0
 flag = 1
 i = 80
@@ -26,17 +27,19 @@ for row in parsed_data:
     hivequery = genhive.hivequery(jobparams)
 
     thread.start_new_thread(submitjob.newjob,(hivequery,flag))
-
+    #if firsttime == 0:
+    #    time.sleep(2.5)
     alljobs = subprocess.check_output('/usr/local/hadoop/bin/hadoop job -list', shell=True)
-    responsestring = {"id": parsed_job["jobid"], "jobID": alljobs[i:i+21]}
+    #print alljobs
+    responsestring = {"id": parsed_job["jobid"], "jobId": alljobs[i:i+21]}
     url = 'http://localhost:8000/job/create/?'
 
     for key, value in responsestring.iteritems():
         url += '%s=%s&' % (key, value)
-        url = url[:-1]
-        requests.get(url)
+    url = url[:-1]
+    requests.get(url)
     i = i+55
-
+    firsttime = 1
     rownum = rownum + 1
 
 
