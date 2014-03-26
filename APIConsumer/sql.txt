@@ -1,0 +1,23 @@
+set hive.mapred.mode=nonstrict;
+
+CREATE DATABASE IF NOT EXISTS {{ user }};
+USE default;
+DROP TABLE IF EXISTS {{ table }};
+CREATE TABLE IF NOT EXISTS {{ table }} (
+    combid STRING
+)
+
+ROW FORMAT DELIMITED FIELDS TERMINATED BY ',';
+
+INSERT OVERWRITE TABLE {{ table }}
+SELECT DISTINCT combid
+FROM medical
+WHERE {{ codes|safe }};
+
+{% for t in tables %}
+DROP TABLE IF EXISTS {{ user }}.{{ t.0 }};
+CREATE TABLE {{ user }}.{{ t.0 }}
+ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' AS
+SELECT * FROM {{ t.1 }}
+LEFT SEMI JOIN {{ username }}.combids ON (combids.combid = {{ t.1 }}.combid);
+{% endfor %}

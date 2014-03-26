@@ -23,8 +23,9 @@ for row in parsed_data:
         flag = 0
     parsed_job = parsed_data[rownum]
     jobparams =  parsed_job["medcodes"]
-
-    hivequery = genhive.hivequery(jobparams)
+    cohort = parsed_job["cohortname"]
+    user = parsed_job["userid"]
+    hivequery = genhive.hivequery(user, cohort, jobparams)
 
     thread.start_new_thread(submitjob.newjob,(hivequery,flag))
     #if firsttime == 0:
