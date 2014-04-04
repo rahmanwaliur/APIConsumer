@@ -28,19 +28,18 @@ for row in parsed_data:
     hivequery = genhive.hivequery(user, cohort, jobparams)
 
     thread.start_new_thread(submitjob.newjob,(hivequery,flag))
-    #if firsttime == 0:
-    #    time.sleep(2.5)
-    alljobs = subprocess.check_output('/usr/local/hadoop/bin/hadoop job -list', shell=True)
-    #print alljobs
-    responsestring = {"id": parsed_job["jobid"], "jobId": alljobs[i:i+21]}
-    url = 'http://localhost:8000/job/create/?'
 
-    for key, value in responsestring.iteritems():
-        url += '%s=%s&' % (key, value)
-    url = url[:-1]
-    requests.get(url)
+    alljobs = subprocess.check_output('/usr/local/hadoop/bin/hadoop job -list', shell=True)
+
+    responsestring = {"id": parsed_job["jobid"], "jobId": alljobs[i:i+21]}
+    print responsestring
+    ##url = 'http://localhost:8000/job/create/?'
+
+    ##for key, value in responsestring.iteritems():
+    ##    url += '%s=%s&' % (key, value)
+    ##url = url[:-1]
+    ##requests.get(url)
     i = i+55
-    firsttime = 1
     rownum = rownum + 1
 
 
