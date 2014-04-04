@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c3810f9-12d0-4434-9d1a-b85f218d23d3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/APIConsumer/sql.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APIConsumer/genhive.py" afterPath="$PROJECT_DIR$/APIConsumer/genhive.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APIConsumer/getcodes.py" afterPath="$PROJECT_DIR$/APIConsumer/getcodes.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="APIConsumer.iws" />
@@ -31,29 +29,25 @@
       <file leaf-file-name="getcodes.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/APIConsumer/getcodes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="40" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1155">
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state line="27" column="37" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="1050">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="genhive.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="genhive.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/APIConsumer/genhive.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="29" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
+            <state line="16" column="0" selection-start="408" selection-end="408" vertical-scroll-proportion="0.35714287" vertical-offset="0" max-vertical-offset="750">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sql.txt" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="sql.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/APIConsumer/sql.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="45" selection-start="545" selection-end="545" vertical-scroll-proportion="0.48989114" vertical-offset="0" max-vertical-offset="643">
+            <state line="22" column="12" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
               <folding />
             </state>
           </provider>
@@ -62,7 +56,7 @@
       <file leaf-file-name="submitjob.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/APIConsumer/submitjob.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="20" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="645">
+            <state line="38" column="0" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
@@ -71,7 +65,7 @@
       <file leaf-file-name="data.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/APIConsumer/data.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="14" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+            <state line="8" column="14" selection-start="153" selection-end="153" vertical-scroll-proportion="-4.8" vertical-offset="0" max-vertical-offset="300">
               <folding />
             </state>
           </provider>
@@ -93,8 +87,8 @@
         <option value="$PROJECT_DIR$/APIConsumer/submitjob.py" />
         <option value="$PROJECT_DIR$/APIConsumer/data.json" />
         <option value="$PROJECT_DIR$/APIConsumer/getcodes.py" />
-        <option value="$PROJECT_DIR$/APIConsumer/genhive.py" />
         <option value="$PROJECT_DIR$/APIConsumer/sql.txt" />
+        <option value="$PROJECT_DIR$/APIConsumer/genhive.py" />
       </list>
     </option>
   </component>
@@ -359,14 +353,17 @@
       <created>1395865572473</created>
       <updated>1395865572473</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added the hiveQL generator">
+      <created>1395868898987</created>
+      <updated>1395868898987</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="961" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -381,6 +378,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -399,7 +397,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="submitting  jobs using threads and sending submission info to the ONav webservice" />
-    <option name="LAST_COMMIT_MESSAGE" value="submitting  jobs using threads and sending submission info to the ONav webservice" />
+    <MESSAGE value="added the hiveQL generator" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the hiveQL generator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -427,9 +426,7 @@
     <entry file="file://$PROJECT_DIR$/APIConsumer/getcodes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="22" selection-start="982" selection-end="982" vertical-scroll-proportion="0.0" vertical-offset="388" max-vertical-offset="1140">
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -453,9 +450,7 @@
     <entry file="file://$PROJECT_DIR$/APIConsumer/getcodes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="5" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="960">
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -479,9 +474,7 @@
     <entry file="file://$PROJECT_DIR$/APIConsumer/getcodes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="0" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -505,9 +498,7 @@
     <entry file="file://$PROJECT_DIR$/APIConsumer/getcodes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="44" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -524,9 +515,7 @@
     <entry file="file://$PROJECT_DIR$/APIConsumer/getcodes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="44" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -543,9 +532,7 @@
     <entry file="file://$PROJECT_DIR$/APIConsumer/getcodes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="44" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -562,9 +549,7 @@
     <entry file="file://$PROJECT_DIR$/APIConsumer/getcodes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="44" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="765">
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -581,9 +566,7 @@
     <entry file="file://$PROJECT_DIR$/APIConsumer/getcodes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="26" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -600,9 +583,7 @@
     <entry file="file://$PROJECT_DIR$/APIConsumer/getcodes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="26" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -619,9 +600,7 @@
     <entry file="file://$PROJECT_DIR$/APIConsumer/getcodes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="765">
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -638,9 +617,7 @@
     <entry file="file://$PROJECT_DIR$/APIConsumer/getcodes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -657,9 +634,7 @@
     <entry file="file://$PROJECT_DIR$/APIConsumer/getcodes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0" vertical-offset="212" max-vertical-offset="810">
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -676,9 +651,7 @@
     <entry file="file://$PROJECT_DIR$/APIConsumer/getcodes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="810">
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -695,47 +668,41 @@
     <entry file="file://$PROJECT_DIR$/APIConsumer/getcodes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="4" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="810">
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/APIConsumer/submitjob.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="20" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+        <state line="38" column="0" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="645">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/APIConsumer/data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="14" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="300">
+        <state line="8" column="14" selection-start="153" selection-end="153" vertical-scroll-proportion="-4.8" vertical-offset="0" max-vertical-offset="300">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/APIConsumer/getcodes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="40" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1155">
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/APIConsumer/genhive.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="29" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
+        <state line="27" column="37" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="1050">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/APIConsumer/sql.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="45" selection-start="545" selection-end="545" vertical-scroll-proportion="0.48989114" vertical-offset="0" max-vertical-offset="643">
+        <state line="22" column="12" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APIConsumer/genhive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="408" selection-end="408" vertical-scroll-proportion="0.35714287" vertical-offset="0" max-vertical-offset="750">
           <folding />
         </state>
       </provider>

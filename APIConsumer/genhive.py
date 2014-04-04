@@ -31,9 +31,9 @@ def hivequery(user, cohort, medcodes):
     for key,value in code_list.iteritems():
         code_list[key] = "(medcode1 = '%s' AND (%s))" % (key, " OR ".join(value))
     master_list = " OR ".join(code_list.values())
-    #hive_tables = ['demography_norm', 'ahd_denorm', 'medical_denorm', 'pvi_norm', 'therapy_norm', 'consult_denorm', 'patient_norm']
+    hive_tables = ['demography_norm', 'ahd_denorm', 'medical_denorm', 'pvi_norm', 'therapy_norm', 'consult_denorm', 'patient_norm']
     thin_tables = ['demography', 'ahd', 'medical', 'pvi', 'therapy', 'consult', 'patient']
-    context = Context({'tables': zip(thin_tables), 'table': table, 'codes': master_list, 'username': user, 'search': cohort.replace(" ", "_")})
+    context = Context({'tables': zip(thin_tables, hive_tables), 'table': table, 'codes': master_list, 'username': user, 'search': cohort.replace(" ", "_")})
     t = loader.get_template('sql.txt')
     return t.render(context)
 # code for hive query generation
