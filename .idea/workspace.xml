@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c3810f9-12d0-4434-9d1a-b85f218d23d3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APIConsumer/genhive.py" afterPath="$PROJECT_DIR$/APIConsumer/genhive.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APIConsumer/data.json" afterPath="$PROJECT_DIR$/APIConsumer/data.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="APIConsumer.iws" />
@@ -35,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="genhive.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="genhive.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/APIConsumer/genhive.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="408" selection-end="408" vertical-scroll-proportion="0.35714287" vertical-offset="0" max-vertical-offset="750">
+            <state line="16" column="0" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
               <folding />
             </state>
           </provider>
@@ -62,10 +62,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data.json" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="data.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/APIConsumer/data.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="14" selection-start="153" selection-end="153" vertical-scroll-proportion="-4.8" vertical-offset="0" max-vertical-offset="300">
+            <state line="14" column="0" selection-start="345" selection-end="345" vertical-scroll-proportion="0.34710744" vertical-offset="0" max-vertical-offset="605">
               <folding />
             </state>
           </provider>
@@ -85,10 +85,10 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/APIConsumer/submitjob.py" />
-        <option value="$PROJECT_DIR$/APIConsumer/data.json" />
         <option value="$PROJECT_DIR$/APIConsumer/getcodes.py" />
         <option value="$PROJECT_DIR$/APIConsumer/sql.txt" />
         <option value="$PROJECT_DIR$/APIConsumer/genhive.py" />
+        <option value="$PROJECT_DIR$/APIConsumer/data.json" />
       </list>
     </option>
   </component>
@@ -357,13 +357,18 @@
       <created>1395868898987</created>
       <updated>1395868898987</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updated hive query generator for hive_tables">
+      <created>1396636092280</created>
+      <updated>1396636092280</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="961" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -378,7 +383,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -398,7 +402,8 @@
     </option>
     <MESSAGE value="submitting  jobs using threads and sending submission info to the ONav webservice" />
     <MESSAGE value="added the hiveQL generator" />
-    <option name="LAST_COMMIT_MESSAGE" value="added the hiveQL generator" />
+    <MESSAGE value="updated hive query generator for hive_tables" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated hive query generator for hive_tables" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -679,13 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APIConsumer/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="14" selection-start="153" selection-end="153" vertical-scroll-proportion="-4.8" vertical-offset="0" max-vertical-offset="300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/APIConsumer/getcodes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="37" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="1050">
@@ -702,7 +700,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/APIConsumer/genhive.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="408" selection-end="408" vertical-scroll-proportion="0.35714287" vertical-offset="0" max-vertical-offset="750">
+        <state line="16" column="0" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APIConsumer/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="345" selection-end="345" vertical-scroll-proportion="0.34710744" vertical-offset="0" max-vertical-offset="605">
           <folding />
         </state>
       </provider>

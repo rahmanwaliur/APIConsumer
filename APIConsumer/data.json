@@ -1,14 +1,14 @@
 [
   {
-    "jobid": 5,
-    "userid": 3,
-    "cohortname": "abc",
-    "medcodes": ["1234", "3546", "6452", "4657", "5637", "46572"]
+    "jobid": 10,
+    "userid": 7,
+    "cohortname": "test1cohort",
+    "medcodes": ["c68710001", "c68710002", "c68710004", "c68710005", "c68710006", "c68710007"]
   },
   {
-    "jobid": 7,
-    "userid": 4,
-    "cohortname": "xyz",
-    "medcodes": ["1234", "3546", "6452", "4657", "5637", "46572"]
+    "jobid": 11,
+    "userid": 8,
+    "cohortname": "test2cohort",
+    "medcodes": ["c68710008", "c68710009", "c6871000?", "c6871000@", "c6871000D", "c6871000B"]
   }
 ]
