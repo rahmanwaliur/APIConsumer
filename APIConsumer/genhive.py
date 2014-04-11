@@ -9,7 +9,7 @@ def hivequery(user, cohort, medcodes):
 
 
     table = "%s.combids" % (user)
-    print table
+    #print table
     # query = "USE THIN1205. DROP TABLE IF EXISTS %s. CREATE TABLE %s AS SELECT DISTINCT combid FROM medical WHERE medcode IN (" % (table, table)"
 
     code_list = {}
@@ -18,23 +18,23 @@ def hivequery(user, cohort, medcodes):
         return False
 
     medcodes.sort()
-    print medcodes
+    #print medcodes
     last_fc = medcodes[0][0]
-    print last_fc
+    #print last_fc
     code_list[last_fc] = []
-    print code_list[last_fc]
+    #print code_list[last_fc]
     for code in medcodes:
         if code[0] == last_fc:
             code_list[last_fc].append("medcode LIKE '%s__'" % code)
         else:
             last_fc = code[0]
             code_list[last_fc] = ["medcode LIKE '%s__'" % code]
-    print code_list
+    #print code_list
     master_list = ''
     for key,value in code_list.iteritems():
         code_list[key] = "(medcode1 = '%s' AND (%s))" % (key, " OR ".join(value))
     master_list = " OR ".join(code_list.values())
-    print master_list
+    #print master_list
     #hive_tables = ['demography_norm', 'ahd_denorm', 'medical_denorm', 'pvi_norm', 'therapy_norm', 'consult_denorm', 'patient_norm']
 
     #thin_tables = ['demography', 'ahd', 'medical', 'pvi', 'therapy', 'consult', 'patient']
