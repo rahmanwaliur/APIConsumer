@@ -29,7 +29,7 @@
       <file leaf-file-name="getcodes.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/APIConsumer/getcodes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="28" selection-start="650" selection-end="650" vertical-scroll-proportion="0.114914425" vertical-offset="283" max-vertical-offset="1065">
+            <state line="35" column="4" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.33496332" vertical-offset="283" max-vertical-offset="1065">
               <folding />
             </state>
           </provider>
@@ -379,7 +379,11 @@
       <created>1397248983563</created>
       <updated>1397248983563</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="updated hadoop directory for woozle">
+      <created>1397250277789</created>
+      <updated>1397250277789</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -425,7 +429,8 @@
     <MESSAGE value="changes in getcodes and submit hive for woozle testing." />
     <MESSAGE value="changes in genhive for woozle testing." />
     <MESSAGE value="changing subprocess method" />
-    <option name="LAST_COMMIT_MESSAGE" value="changing subprocess method" />
+    <MESSAGE value="updated hadoop directory for woozle" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated hadoop directory for woozle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -731,7 +736,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/APIConsumer/getcodes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="28" selection-start="650" selection-end="650" vertical-scroll-proportion="0.114914425" vertical-offset="283" max-vertical-offset="1065">
+        <state line="35" column="4" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.33496332" vertical-offset="283" max-vertical-offset="1065">
           <folding />
         </state>
       </provider>

@@ -30,7 +30,7 @@ for row in parsed_data:
     thread.start_new_thread(submitjob.newjob,(hivequery,flag))
 
     #alljobs = subprocess.check_output('/usr/local/hadoop/bin/hadoop job -list', shell=True)
-    proc = subprocess.Popen(["/usr/local/hadoop/bin/hadoop", "job", "-list"], stdout=subprocess.PIPE)
+    #proc = subprocess.Popen(["/usr/local/hadoop/bin/hadoop", "job", "-list"], stdout=subprocess.PIPE)
     proc = subprocess.Popen(["/usr/lib/hadoop/bin/hadoop", "job", "-list"], stdout=subprocess.PIPE)
     alljobs, err = proc.communicate()
     responsestring = {"id": parsed_job["jobid"], "jobId": alljobs[i:i+21]}
