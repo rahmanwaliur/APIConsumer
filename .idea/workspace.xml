@@ -38,7 +38,7 @@
       <file leaf-file-name="genhive.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/APIConsumer/genhive.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="4" selection-start="1359" selection-end="1359" vertical-scroll-proportion="0.53056234" vertical-offset="383" max-vertical-offset="960">
+            <state line="43" column="70" selection-start="1520" selection-end="1520" vertical-scroll-proportion="0.52811736" vertical-offset="429" max-vertical-offset="960">
               <folding />
             </state>
           </provider>
@@ -389,7 +389,11 @@
       <created>1397250647149</created>
       <updated>1397250647149</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="test query for woozle from the script.">
+      <created>1397253539598</created>
+      <updated>1397253539598</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -437,7 +441,8 @@
     <MESSAGE value="changing subprocess method" />
     <MESSAGE value="updated hadoop directory for woozle" />
     <MESSAGE value="updated user for submitting job" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated user for submitting job" />
+    <MESSAGE value="test query for woozle from the script." />
+    <option name="LAST_COMMIT_MESSAGE" value="test query for woozle from the script." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -718,13 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APIConsumer/submitjob.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="98" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/APIConsumer/data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="39" selection-start="104" selection-end="113" vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="300">
@@ -739,9 +737,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/APIConsumer/submitjob.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="98" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/APIConsumer/genhive.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="4" selection-start="1359" selection-end="1359" vertical-scroll-proportion="0.53056234" vertical-offset="383" max-vertical-offset="960">
+        <state line="43" column="70" selection-start="1520" selection-end="1520" vertical-scroll-proportion="0.52811736" vertical-offset="429" max-vertical-offset="960">
           <folding />
         </state>
       </provider>
