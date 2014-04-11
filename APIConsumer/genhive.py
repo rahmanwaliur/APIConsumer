@@ -38,11 +38,11 @@ def hivequery(user, cohort, medcodes):
     #hive_tables = ['demography_norm', 'ahd_denorm', 'medical_denorm', 'pvi_norm', 'therapy_norm', 'consult_denorm', 'patient_norm']
 
     #thin_tables = ['demography', 'ahd', 'medical', 'pvi', 'therapy', 'consult', 'patient']
+    #query = "SELECT DISTINCT combid FROM diabdrug.medical WHERE combid = %s;" % master_list
 
-    query = "SELECT DISTINCT combid FROM diabdrug.medical WHERE combid = %s;" % master_list
 
+    query = "select * from diabdrug.medical where combid = 'c68710002';";
     return query
-
     #mode = "set hive.mapred.mode=nonstrict;"
     #create_db = "CREATE DATABASE IF NOT EXISTS %s;" % cohort
     #context = Context({'tables': zip(thin_tables, hive_tables), 'table': table, 'codes': master_list, 'username': user, 'search': cohort.replace(" ", "_")})
