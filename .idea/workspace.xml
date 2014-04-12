@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c3810f9-12d0-4434-9d1a-b85f218d23d3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APIConsumer/genhive.py" afterPath="$PROJECT_DIR$/APIConsumer/genhive.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APIConsumer/submitjob.py" afterPath="$PROJECT_DIR$/APIConsumer/submitjob.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="APIConsumer.iws" />
@@ -29,16 +29,16 @@
       <file leaf-file-name="getcodes.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/APIConsumer/getcodes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="4" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0" vertical-offset="283" max-vertical-offset="1065">
+            <state line="35" column="4" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1170">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="genhive.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="genhive.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/APIConsumer/genhive.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="0" selection-start="1939" selection-end="1939" vertical-scroll-proportion="0.92665035" vertical-offset="491" max-vertical-offset="960">
+            <state line="58" column="0" selection-start="1939" selection-end="1939" vertical-scroll-proportion="0.0" vertical-offset="491" max-vertical-offset="960">
               <folding />
             </state>
           </provider>
@@ -47,16 +47,16 @@
       <file leaf-file-name="sql.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/APIConsumer/sql.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="12" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+            <state line="22" column="12" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="420">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="submitjob.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="submitjob.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/APIConsumer/submitjob.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="77" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="645">
+            <state line="6" column="90" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0952381" vertical-offset="15" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
@@ -65,7 +65,7 @@
       <file leaf-file-name="data.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/APIConsumer/data.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="39" selection-start="104" selection-end="113" vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="300">
+            <state line="5" column="39" selection-start="104" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="300">
               <folding />
             </state>
           </provider>
@@ -87,8 +87,8 @@
         <option value="$PROJECT_DIR$/APIConsumer/sql.txt" />
         <option value="$PROJECT_DIR$/APIConsumer/data.json" />
         <option value="$PROJECT_DIR$/APIConsumer/getcodes.py" />
-        <option value="$PROJECT_DIR$/APIConsumer/submitjob.py" />
         <option value="$PROJECT_DIR$/APIConsumer/genhive.py" />
+        <option value="$PROJECT_DIR$/APIConsumer/submitjob.py" />
       </list>
     </option>
   </component>
@@ -401,14 +401,17 @@
       <created>1397254044429</created>
       <updated>1397254044429</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="comment out unnecessary statements.">
+      <created>1397254208815</created>
+      <updated>1397254208815</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="961" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -417,15 +420,16 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38988096" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32886904" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886904" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -452,7 +456,8 @@
     <MESSAGE value="test query for woozle from the script." />
     <MESSAGE value="updated test query" />
     <MESSAGE value="changed to hive user for submitting job" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed to hive user for submitting job" />
+    <MESSAGE value="comment out unnecessary statements." />
+    <option name="LAST_COMMIT_MESSAGE" value="comment out unnecessary statements." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -721,9 +726,7 @@
     </entry>
     <entry file="file:///usr/lib/python2.7/subprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1248" column="0" selection-start="45794" selection-end="45794" vertical-scroll-proportion="0.33139536" vertical-offset="18606" max-vertical-offset="23070">
-          <folding />
-        </state>
+        <state line="1248" column="0" selection-start="45794" selection-end="45794" vertical-scroll-proportion="0.33139536" vertical-offset="18606" max-vertical-offset="23070" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/APIConsumer/getcodes.py">
@@ -735,7 +738,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/APIConsumer/data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="39" selection-start="104" selection-end="113" vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="300">
+        <state line="5" column="39" selection-start="104" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="300">
           <folding />
         </state>
       </provider>
@@ -747,16 +750,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APIConsumer/submitjob.py">
+    <entry file="file://$PROJECT_DIR$/APIConsumer/genhive.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="77" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="645">
+        <state line="58" column="0" selection-start="1939" selection-end="1939" vertical-scroll-proportion="0.0" vertical-offset="491" max-vertical-offset="960">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APIConsumer/genhive.py">
+    <entry file="file://$PROJECT_DIR$/APIConsumer/submitjob.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="0" selection-start="1939" selection-end="1939" vertical-scroll-proportion="0.92665035" vertical-offset="491" max-vertical-offset="960">
+        <state line="6" column="90" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0952381" vertical-offset="15" max-vertical-offset="645">
           <folding />
         </state>
       </provider>
