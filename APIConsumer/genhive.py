@@ -5,10 +5,10 @@
 #from string import Template
 
 def hivequery(user, cohort, medcodes):
-    return "select country, gni from hdi where gni<2000"
+    #return "select country, gni from hdi where gni<2000"
 
 
-    """table = "%s.combids" % (user)
+    table = "%s.combids" % (user)
     #print table
     # query = "USE THIN1205. DROP TABLE IF EXISTS %s. CREATE TABLE %s AS SELECT DISTINCT combid FROM medical WHERE medcode IN (" % (table, table)"
 
@@ -52,7 +52,7 @@ def hivequery(user, cohort, medcodes):
 
 # code for hive query generation
 
-  #print medcodes"""
+  #print medcodes
 
 
 
