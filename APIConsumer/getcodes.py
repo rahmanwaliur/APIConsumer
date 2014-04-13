@@ -28,7 +28,7 @@ for row in parsed_data:
     hivequery = genhive.hivequery(user, cohort, jobparams)
 
     thread.start_new_thread(submitjob.newjob,(hivequery,flag))
-    time.sleep(1)
+    time.sleep(2)
     #alljobs = subprocess.check_output('/usr/local/hadoop/bin/hadoop job -list', shell=True)
     proc = subprocess.Popen(["/usr/lib/hadoop/bin/hadoop", "job", "-list"], stdout=subprocess.PIPE)
     #proc = subprocess.Popen(["/usr/local/hadoop/bin/hadoop", "job", "-list"], stdout=subprocess.PIPE)
