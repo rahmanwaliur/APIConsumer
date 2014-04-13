@@ -26,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="getcodes.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="getcodes.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/APIConsumer/getcodes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="4" selection-start="783" selection-end="783" vertical-scroll-proportion="0.6381418" vertical-offset="114" max-vertical-offset="1065">
+            <state line="36" column="5" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="1080">
               <folding />
             </state>
           </provider>
@@ -38,7 +38,7 @@
       <file leaf-file-name="genhive.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/APIConsumer/genhive.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="16" selection-start="1545" selection-end="1545" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
+            <state line="57" column="0" selection-start="1938" selection-end="1938" vertical-scroll-proportion="0.0" vertical-offset="551" max-vertical-offset="960">
               <folding />
             </state>
           </provider>
@@ -47,16 +47,16 @@
       <file leaf-file-name="sql.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/APIConsumer/sql.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="12" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="420">
+            <state line="22" column="12" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="submitjob.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="submitjob.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/APIConsumer/submitjob.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+            <state line="6" column="2" selection-start="65" selection-end="65" vertical-scroll-proportion="0.18337408" vertical-offset="0" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
@@ -86,9 +86,9 @@
       <list>
         <option value="$PROJECT_DIR$/APIConsumer/sql.txt" />
         <option value="$PROJECT_DIR$/APIConsumer/data.json" />
+        <option value="$PROJECT_DIR$/APIConsumer/getcodes.py" />
         <option value="$PROJECT_DIR$/APIConsumer/genhive.py" />
         <option value="$PROJECT_DIR$/APIConsumer/submitjob.py" />
-        <option value="$PROJECT_DIR$/APIConsumer/getcodes.py" />
       </list>
     </option>
   </component>
@@ -417,7 +417,11 @@
       <created>1397346250935</created>
       <updated>1397346250935</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="updated to run in woozle.">
+      <created>1397346408547</created>
+      <updated>1397346408547</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -758,23 +762,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/APIConsumer/getcodes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="5" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/APIConsumer/genhive.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="16" selection-start="1545" selection-end="1545" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
+        <state line="57" column="0" selection-start="1938" selection-end="1938" vertical-scroll-proportion="0.0" vertical-offset="551" max-vertical-offset="960">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/APIConsumer/submitjob.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/APIConsumer/getcodes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="4" selection-start="783" selection-end="783" vertical-scroll-proportion="0.6381418" vertical-offset="114" max-vertical-offset="1065">
+        <state line="6" column="2" selection-start="65" selection-end="65" vertical-scroll-proportion="0.18337408" vertical-offset="0" max-vertical-offset="645">
           <folding />
         </state>
       </provider>
