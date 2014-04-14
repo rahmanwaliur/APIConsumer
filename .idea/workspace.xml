@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c3810f9-12d0-4434-9d1a-b85f218d23d3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APIConsumer/genhive.py" afterPath="$PROJECT_DIR$/APIConsumer/genhive.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APIConsumer/getcodes.py" afterPath="$PROJECT_DIR$/APIConsumer/getcodes.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="APIConsumer.iws" />
@@ -26,19 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="getcodes.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="getcodes.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/APIConsumer/getcodes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="49" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.0" vertical-offset="203" max-vertical-offset="1080">
+            <state line="30" column="16" selection-start="701" selection-end="701" vertical-scroll-proportion="0.3727034" vertical-offset="203" max-vertical-offset="1080">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="genhive.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="genhive.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/APIConsumer/genhive.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="83" selection-start="1742" selection-end="1742" vertical-scroll-proportion="0.91847825" vertical-offset="367" max-vertical-offset="1080">
+            <state line="38" column="22" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.0" vertical-offset="367" max-vertical-offset="1080">
               <folding />
             </state>
           </provider>
@@ -86,9 +86,9 @@
       <list>
         <option value="$PROJECT_DIR$/APIConsumer/sql.txt" />
         <option value="$PROJECT_DIR$/APIConsumer/submitjob.py" />
-        <option value="$PROJECT_DIR$/APIConsumer/getcodes.py" />
         <option value="$PROJECT_DIR$/APIConsumer/data.json" />
         <option value="$PROJECT_DIR$/APIConsumer/genhive.py" />
+        <option value="$PROJECT_DIR$/APIConsumer/getcodes.py" />
       </list>
     </option>
   </component>
@@ -473,7 +473,11 @@
       <created>1397498691202</created>
       <updated>1397498691202</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="changed medical_denorm to medical_norm">
+      <created>1397499156383</created>
+      <updated>1397499156383</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -536,7 +540,8 @@
     <MESSAGE value="changing select query" />
     <MESSAGE value="all queries are incorporated in genhive.py" />
     <MESSAGE value="changed userid to string" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed userid to string" />
+    <MESSAGE value="changed medical_denorm to medical_norm" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed medical_denorm to medical_norm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -815,13 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APIConsumer/getcodes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="49" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.0" vertical-offset="203" max-vertical-offset="1080">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/APIConsumer/data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
@@ -838,7 +836,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/APIConsumer/genhive.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="83" selection-start="1742" selection-end="1742" vertical-scroll-proportion="0.91847825" vertical-offset="367" max-vertical-offset="1080">
+        <state line="38" column="22" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.0" vertical-offset="367" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APIConsumer/getcodes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="16" selection-start="701" selection-end="701" vertical-scroll-proportion="0.3727034" vertical-offset="203" max-vertical-offset="1080">
           <folding />
         </state>
       </provider>
