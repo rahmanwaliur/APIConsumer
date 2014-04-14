@@ -29,7 +29,7 @@
       <file leaf-file-name="getcodes.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/APIConsumer/getcodes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="16" selection-start="701" selection-end="701" vertical-scroll-proportion="0.3727034" vertical-offset="203" max-vertical-offset="1080">
+            <state line="36" column="4" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.6089239" vertical-offset="203" max-vertical-offset="1080">
               <folding />
             </state>
           </provider>
@@ -489,7 +489,11 @@
       <created>1397500470727</created>
       <updated>1397500470727</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="changed delay time">
+      <created>1397500587209</created>
+      <updated>1397500587209</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -555,7 +559,8 @@
     <MESSAGE value="changed medical_denorm to medical_norm" />
     <MESSAGE value="changed delay timing" />
     <MESSAGE value="print all jobs" />
-    <option name="LAST_COMMIT_MESSAGE" value="print all jobs" />
+    <MESSAGE value="changed delay time" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed delay time" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -857,7 +862,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/APIConsumer/getcodes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="16" selection-start="701" selection-end="701" vertical-scroll-proportion="0.3727034" vertical-offset="203" max-vertical-offset="1080">
+        <state line="36" column="4" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.6089239" vertical-offset="203" max-vertical-offset="1080">
           <folding />
         </state>
       </provider>
