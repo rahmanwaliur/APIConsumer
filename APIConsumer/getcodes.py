@@ -28,14 +28,14 @@ for row in parsed_data:
     hivequery = genhive.hivequery(user, cohort, jobparams)
 
     thread.start_new_thread(submitjob.newjob,(hivequery,flag))
-    time.sleep(2)
+    time.sleep(5)
     #alljobs = subprocess.check_output('/usr/local/hadoop/bin/hadoop job -list', shell=True)
     proc = subprocess.Popen(["/usr/lib/hadoop/bin/hadoop", "job", "-list"], stdout=subprocess.PIPE)
     #proc = subprocess.Popen(["/usr/local/hadoop/bin/hadoop", "job", "-list"], stdout=subprocess.PIPE)
     alljobs, err = proc.communicate()
     responsestring = {"id": parsed_job["jobid"], "jobId": alljobs[i:i+21]}
-    #print responsestring
-    print alljobs
+    print responsestring
+    #print alljobs
     ##url = 'http://localhost:8000/job/create/?'
 
     ##for key, value in responsestring.iteritems():

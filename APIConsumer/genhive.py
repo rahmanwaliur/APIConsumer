@@ -8,7 +8,9 @@ def hivequery(user, cohort, medcodes):
     #return "select country, gni from hdi where gni<2000"
 
 
-    table = "%s.combids" % (user)
+    #table = "%s.combids" % (user)
+    table = "%s_combids" % (user)
+
     #print table
     # query = "USE THIN1205. DROP TABLE IF EXISTS %s. CREATE TABLE %s AS SELECT DISTINCT combid FROM medical WHERE medcode IN (" % (table, table)"
 
@@ -35,16 +37,22 @@ def hivequery(user, cohort, medcodes):
         code_list[key] = "(medcode1 = '%s' AND (%s))" % (key, " OR ".join(value))
     master_list = " OR ".join(code_list.values())
     #print master_list
-    #hive_tables = ['demography_norm', 'ahd_denorm', 'medical_denorm', 'pvi_norm', 'therapy_norm', 'consult_denorm', 'patient_norm']
+    hive_tables = ['demography_norm', 'ahd_denorm', 'medical_denorm', 'pvi_norm', 'therapy_norm', 'consult_denorm', 'patient_norm']
 
-    #thin_tables = ['demography', 'ahd', 'medical', 'pvi', 'therapy', 'consult', 'patient']
-    #query = "SELECT DISTINCT combid FROM diabdrug.medical WHERE combid = %s;" % master_list
+    thin_tables = ['demography', 'ahd', 'medical', 'pvi', 'therapy', 'consult', 'patient']
 
+    create_db = "CREATE DATABASE IF NOT EXISTS %s" % user
+    working_db = "USE default"
+    drop_table1 = "DROP TABLE IF EXISTS %s" % table
+    create_table1 = "CREATE TABLE IF NOT EXISTS %s (combid STRING) ROW FORMAT DELIMITED FIELDS TERMINATED BY ','" % table
+    testing_codes = "INSERT OVERWRITE TABLE %s SELECT DISTINCT combid FROM medical_denorm WHERE %s" % (table,master_list)
+    drop_table2 = "DROP TABLE IF EXISTS %s_%s" % (user,hive_tables)
+    create_table12 = "CRETAE TABLE %s_%s ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' AS SELECT * FROM %s LEFT SEMI JOIN %s ON (combids.combid = %s.combid)" % (user, hive_tables, thin_tables, table, thin_tables)
 
-    query = "select * from diabdrug.medical where combid = %s" % master_list
-    return query
+    #query = "select * from diabdrug.medical where combid = %s" % master_list
+    return {'createdb':create_db, 'workdb':working_db, 'droptable1': drop_table1, 'createtable1': create_table1, 'testcode':testing_codes, 'droptable2':drop_table2, 'createtable2':create_table12}
     #mode = "set hive.mapred.mode=nonstrict;"
-    #create_db = "CREATE DATABASE IF NOT EXISTS %s;" % cohort
+
     #context = Context({'tables': zip(thin_tables, hive_tables), 'table': table, 'codes': master_list, 'username': user, 'search': cohort.replace(" ", "_")})
     #t = loader.get_template('sql.txt')
     #return t.render(context)
