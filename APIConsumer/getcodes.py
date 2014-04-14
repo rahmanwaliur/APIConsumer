@@ -34,8 +34,8 @@ for row in parsed_data:
     #proc = subprocess.Popen(["/usr/local/hadoop/bin/hadoop", "job", "-list"], stdout=subprocess.PIPE)
     alljobs, err = proc.communicate()
     responsestring = {"id": parsed_job["jobid"], "jobId": alljobs[i:i+21]}
-    print responsestring
-    #print alljobs
+    #print responsestring
+    print alljobs
     ##url = 'http://localhost:8000/job/create/?'
 
     ##for key, value in responsestring.iteritems():
