@@ -45,7 +45,7 @@ def hivequery(user, cohort, medcodes):
     working_db = "USE default"
     drop_table1 = "DROP TABLE IF EXISTS %s" % table
     create_table1 = "CREATE TABLE IF NOT EXISTS %s (combid STRING) ROW FORMAT DELIMITED FIELDS TERMINATED BY ','" % table
-    testing_codes = "INSERT OVERWRITE TABLE %s SELECT DISTINCT combid FROM medical_denorm WHERE %s" % (table,master_list)
+    testing_codes = "INSERT OVERWRITE TABLE %s SELECT DISTINCT combid FROM medical_norm WHERE %s" % (table,master_list)
     drop_table2 = "DROP TABLE IF EXISTS %s_%s" % (user,hive_tables)
     create_table12 = "CRETAE TABLE %s_%s ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' AS SELECT * FROM %s LEFT SEMI JOIN %s ON (combids.combid = %s.combid)" % (user, hive_tables, thin_tables, table, thin_tables)
 
