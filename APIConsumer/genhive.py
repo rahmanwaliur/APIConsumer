@@ -41,7 +41,7 @@ def hivequery(user, cohort, medcodes):
     #query = "SELECT DISTINCT combid FROM diabdrug.medical WHERE combid = %s;" % master_list
 
 
-    query = "select * from diabdrug.medical where combid = 'c68710002'";
+    query = "select * from diabdrug.medical where combid = %s" % master_list
     return query
     #mode = "set hive.mapred.mode=nonstrict;"
     #create_db = "CREATE DATABASE IF NOT EXISTS %s;" % cohort
