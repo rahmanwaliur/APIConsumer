@@ -5,9 +5,9 @@
 #from string import Template
 
 def hivequery(user, cohort, medcodes):
-    return "select country, gni from hdi where gni<2000"
+    #return "select country, gni from hdi where gni<2000"
 
-"""
+
     #table = "%s.combids" % (user)
     table = "%s_combids" % (user)
 
@@ -63,4 +63,4 @@ def hivequery(user, cohort, medcodes):
   #print medcodes
 
 
-"""
+

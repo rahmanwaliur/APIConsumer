@@ -1,7 +1,7 @@
 [
   {
     "jobid": 10,
-    "userid": "mark",
+    "userid": "waliur",
     "cohortname": "test1cohort",
     "medcodes": ["c68710004", "c68710002", "c68710001", "c68710006", "c68710005", "c68710007"]
   },
